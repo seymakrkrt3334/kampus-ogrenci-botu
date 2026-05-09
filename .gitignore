@@ -1,0 +1,35 @@
+# Gizli anahtar — asla commit etmeyin
+.env
+.env.local
+*.pem
+
+# Sanal ortam
+.venv/
+venv/
+ENV/
+
+# Python önbellek / çöp
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Log
+*.log
